@@ -25,14 +25,17 @@ To set up this project, follow these steps:
    ```
 
 2. Install the required libraries manually. You will need the following Python packages:
-   - TensorFlow or PyTorch (depending on your implementation)
-   - OpenCV
+   - TensorFlow
+   - Keras
    - NumPy
    - Matplotlib
+   - SciPy
+   - Pillow
+   - OpenCV
 
    You can install these using pip:
    ```bash
-   pip install tensorflow opencv-python numpy matplotlib
+   pip install tensorflow keras numpy opencv-python matplotlib pillow scipy
    ```
 
 ## Usage
@@ -43,7 +46,7 @@ To run the car detection model, open the Jupyter Notebook provided in this repos
    jupyter notebook
    ```
 
-2. Open the notebook file (e.g., `Autonomous-Driving-Car-Detection.ipynb`) and follow the instructions within to execute each cell.
+2. Open the notebook file (e.g., `Autonomous_Driving_Application_Car_Detection.ipynb`) and follow the instructions within to execute each cell.
 
 ## Algorithm Details
 ### YOLO Algorithm
